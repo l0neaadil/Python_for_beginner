@@ -1,5 +1,5 @@
 # The split() method splits a string into a list.
-# You can specify the separator, default separator is any whitespace
+# You can specify the separator, default separator is any whitespace.
 
 string = "hello, my name is Lone,/ I am 26 years old"
 
