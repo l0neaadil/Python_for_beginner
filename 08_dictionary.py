@@ -18,4 +18,5 @@ g[1] = 67                                 # replacing value of key
 g[5] = 'y'                                  # adding new key_value pair
 print(g)
 print(f.keys(), "\n", g.values())
-
+for el, v in f.items():                     # el represents keys & v represents values
+    print(el, v)
