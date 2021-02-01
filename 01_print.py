@@ -1,5 +1,5 @@
-# PRINT
-print("Lone_Aadil")
+# print() function
+print("Lone Aadil")
 print(14203135008)
 print("x=10", "y=11")
 print("x=10 " + "y=11")
