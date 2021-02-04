@@ -5,7 +5,7 @@ a = {1, 9, 4, 5, 8, 1, 2, 9}
 print(a, '\n', len(a))
 
 a.add(15)
-a.update([3, 25, 27, 29])
+a.update({3, 25, 27, 29})
 print(a)
 
 a.remove(25)                     # if element is not present it will show error
