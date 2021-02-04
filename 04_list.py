@@ -1,7 +1,7 @@
 # List and operations on a list
 x = [6, 2, 9, 5, 1, 0, 3]
 y = ['w', 'r', 1, 4, [1, 2, 'h']]
-print(x, y)
+print(x, y, '\n \t concat:', x + y)
 
 print(y[3])
 print(y[4])
@@ -29,6 +29,9 @@ print(g)
 t = g
 e =g.copy()
 print(t, e)
+
+g.append('copy')
+print(g, t, e)
 
 e.append(4)
 e.append(4)
