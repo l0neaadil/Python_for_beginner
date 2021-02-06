@@ -15,5 +15,6 @@ print(list[:], tupple[:], string[:])                          # copy of variable
 print(list[0:9:3], tupple[2:8:1], string[3:6:1])              # step : cancels "step-1" steps in between
 print(list[-9:-5], tupple[-5:-3], string[-3:-1])
 
+print(list[::1], tupple[::2], string[::3])                
 print(list[::-1], tupple[::-1], string[::-1])                 # reverses the order
 print(list[0:-1])
