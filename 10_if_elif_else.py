@@ -1,3 +1,15 @@
+# if...elif ...else
+x = float(input("enter a no.: "))
+if x == 0:
+    print("no. is neither positive nor negative")
+elif x < 0:
+    print("no. is negative")
+else:
+    print("no. is positive")
+print("Done")
+
+
+
 # Nested if_else
 x = int(input("enter any integer:  "))
 if x == 0:
