@@ -1,4 +1,8 @@
 # Generators
+# Any function that contains a yield keyword is termed as generator.
+# yield is used to return from a function without destroying the state of its local variables. 
+
+
 # # Part_1
 # def my_func():
 #     yield 'a'
