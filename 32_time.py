@@ -3,7 +3,7 @@ from time import time
 
 
 def timing(func):
-    def body(n):                           # n = (*args, **kwargs)
+    def body(n):                           
         start = time()
         print('start time of function is: ', start)
         result = func(n)
