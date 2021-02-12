@@ -1,15 +1,15 @@
 # String to Bytes:
-result = 'hello world'
+string = 'hello world'
 
 output = b'hello world'
 print(output)
 print(type(output))
 
-output = result.encode('utf-8')
+output = string.encode('utf-8')
 print(output)
 print(type(output))
 
-output = bytes(result, 'utf-8')
+output = bytes(string, 'utf-8')
 print(output)
 print(type(output))
 
