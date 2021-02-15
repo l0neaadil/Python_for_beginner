@@ -1,4 +1,20 @@
 # Encapsulation
+# Encapsulation makes data unaccessible outside of the class.
+
+# Class without encapsulation
+# class Car:
+#     def __init__(self, speed, color, engine):
+#         self.speed = speed
+#         self.color = color
+#         self.engine = engine
+# 
+# 
+# ford = Car(120, 'blue', 11)
+# honda = Car(125, 'green', 12)
+# audi = Car(130, 'yellow', 13)
+# 
+# print(audi.speed, honda.color, ford.engine)
+
 class Car:
     def __init__(self, speed, power, color):
         self.__speed = speed
